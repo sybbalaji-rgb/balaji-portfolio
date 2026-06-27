@@ -1,4 +1,4 @@
-import { Github, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { motion } from "motion/react";
 import projects from "../../data/projects";
 
@@ -52,7 +52,6 @@ function Projects() {
                 <div className="flex gap-4 mt-8">
 
                   <button className="flex items-center gap-2 px-5 py-3 rounded-full bg-blue-600 hover:bg-blue-700 transition">
-                    <Github size={18} />
                     GitHub
                   </button>
 

@@ -17,9 +17,10 @@ function App() {
       <Projects />
       <Certifications />
       <Contact />
-      <Footer />
+      <Footer />q
     </>
   );
 }
 
 export default App;
+

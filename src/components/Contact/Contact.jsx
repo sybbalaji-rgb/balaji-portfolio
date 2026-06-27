@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { motion } from "motion/react";
 
 function Contact() {
@@ -49,7 +49,6 @@ function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 rounded-full bg-blue-600 hover:bg-blue-700 transition"
             >
-              <Github size={18} />
               GitHub
             </a>
 
@@ -59,7 +58,6 @@ function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 rounded-full border border-gray-500 hover:border-blue-500 transition"
             >
-              <Linkedin size={18} />
               LinkedIn
             </a>
 
