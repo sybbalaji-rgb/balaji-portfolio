@@ -1,33 +1,80 @@
 const projects = [
   {
     id: 1,
-    title: "Portfolio Website",
+    title: "Calculator",
     description:
-      "A modern personal portfolio built using React, Tailwind CSS and Motion with a clean UI and responsive design.",
-    tech: ["React", "Tailwind CSS", "Motion"],
-    github: "#",
-    live: "#",
-    image: "/portfolio-preview.png",
+      "A simple calculator application built using React with basic arithmetic operations.",
+
+    image: "src/assets/projects/CALCULATOR.png",
+
+    github: "https://github.com/sybbalaji-rgb/CALACULATOR",
+
+    live: "https://calaculator-mauve.vercel.app/",
+
+    tech: ["React", "HTML", "CSS", "JavaScript"],
   },
+
   {
     id: 2,
-    title: "Cloud Dashboard",
+    title: "Resume-Builder",
+
     description:
-      "A cloud infrastructure dashboard concept to monitor resources and system performance.",
-    tech: ["React", "JavaScript", "Chart.js"],
-    github: "#",
+      "A resume builder application that allows users to create and download professional resumes.",
+    
+      image: "src/assets/projects/Resume-Builder.png",
+
+    github: "https://github.com/sybbalaji-rgb",
+
     live: "#",
-    image: "/cloud-dashboard.png",
+
+    tech: ["React", "Tailwind", "HTML", "CSS" , "JavaScript"],
   },
+
   {
     id: 3,
-    title: "Weather App",
+    title: "friendship sorry website",
+
     description:
-      "Responsive weather application using public APIs with modern UI.",
-    tech: ["React", "API", "CSS"],
-    github: "#",
-    live: "#",
-    image: "/weather.png",
+      "A website that allows users to send friendship sorry messages to their friends.",
+
+    image: "src/assets/projects/SORRY.png",
+
+    github: "https://github.com/sybbalaji-rgb/Sorry1",
+
+    live: "https://sorry1-xi.vercel.app/",
+
+    tech: ["HTML", "CSS", "JavaScript"],
+  },
+
+  {
+    id: 4,
+    title: "Study AI CHATBOT",
+
+    description:
+      "A chatbot for studying AI concepts with interactive learning features.",
+
+    image: "src/assets/projects/STUDY AI.png",
+
+    github: "https://github.com/sybbalaji-rgb/STUDY-AI-18.0",
+
+    live: "https://study-ai-18-0.vercel.app/",
+
+    tech: ["JSON", "HTML", "CSS", "JavaScript" , "React"],
+  },
+   {
+    id: 5,
+    title: "Engineering AI Calculator",
+
+    description:
+      "A calculator for engineering AI applications with interactive learning features.",
+
+    image: "src/assets/projects/Ecalci.png",
+
+    github: "https://github.com/sybbalaji-rgb",
+
+    live: "https://v0-engineering-formula-calculator.vercel.app/",
+
+    tech: ["HTML", "CSS", "JavaScript" , "React"],
   },
 ];
 

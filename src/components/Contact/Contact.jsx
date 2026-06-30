@@ -3,7 +3,10 @@ import { motion } from "motion/react";
 
 function Contact() {
   return (
-    <section className="bg-[#09090B] py-28 px-6">
+    <section
+  id="contact"
+  className="bg-[#09090B] py-28 px-6"
+>
       <div className="max-w-5xl mx-auto">
 
         <motion.h2
@@ -22,11 +25,11 @@ function Contact() {
             <div className="flex items-center gap-4">
               <Mail className="text-blue-400" />
               <a
-                href="mailto:sybbalaji@gmail.com"
-                className="hover:text-blue-400 transition"
-              >
-                sybbalaji@gmail.com
-              </a>
+  href="mailto:sybbalaji@gmail.com"
+  className="hover:text-blue-400 transition"
+>
+  sybbalaji@gmail.com
+</a>
             </div>
 
             <div className="flex items-center gap-4">
