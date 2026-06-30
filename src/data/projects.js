@@ -1,3 +1,8 @@
+import calculator from "../assets/projects/CALCULATOR.png";
+import studyAI from "../assets/projects/STUDY AI.png";
+import resumeBuilder from "../assets/projects/Resume-Builder.png";
+import ecalci from "../assets/projects/Ecalci.png";
+import sorry from "../assets/projects/SORRY.png";
 const projects = [
   {
     id: 1,
@@ -5,7 +10,7 @@ const projects = [
     description:
       "A simple calculator application built using React with basic arithmetic operations.",
 
-    image: "src/assets/projects/CALCULATOR.png",
+    image: calculator,
 
     github: "https://github.com/sybbalaji-rgb/CALACULATOR",
 
@@ -21,7 +26,7 @@ const projects = [
     description:
       "A resume builder application that allows users to create and download professional resumes.",
     
-      image: "src/assets/projects/Resume-Builder.png",
+      image: resumeBuilder,
 
     github: "https://github.com/sybbalaji-rgb",
 
@@ -37,7 +42,7 @@ const projects = [
     description:
       "A website that allows users to send friendship sorry messages to their friends.",
 
-    image: "src/assets/projects/SORRY.png",
+    image: sorry,
 
     github: "https://github.com/sybbalaji-rgb/Sorry1",
 
@@ -53,7 +58,7 @@ const projects = [
     description:
       "A chatbot for studying AI concepts with interactive learning features.",
 
-    image: "src/assets/projects/STUDY AI.png",
+    image: studyAI,
 
     github: "https://github.com/sybbalaji-rgb/STUDY-AI-18.0",
 
@@ -68,7 +73,7 @@ const projects = [
     description:
       "A calculator for engineering AI applications with interactive learning features.",
 
-    image: "src/assets/projects/Ecalci.png",
+    image: ecalci,
 
     github: "https://github.com/sybbalaji-rgb",
 
